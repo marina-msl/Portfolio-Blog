@@ -1,74 +1,77 @@
-# Portfólio & Blog
+# Portfolio & Blog
 
-Um portfólio moderno e responsivo construído com Next.js, TypeScript e Tailwind CSS.
+My personal portfolio and blog showcasing my work and thoughts on software engineering.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-- **Next.js 14** - Framework React para produção
-- **TypeScript** - Tipagem estática
-- **Tailwind CSS** - Estilização utilitária
-- **Framer Motion** - Animações suaves
-- **React 18** - Biblioteca UI
+- **Next.js 14** - React framework for production
+- **TypeScript** - Static typing
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Smooth animations
+- **React 18** - UI library
 
-## 📦 Instalação
+## 📦 Installation
 
-1. Instale as dependências:
+1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Execute o servidor de desenvolvimento:
+2. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-3. Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🛠️ Scripts Disponíveis
+## 🛠️ Available Scripts
 
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Cria a build de produção
-- `npm run start` - Inicia o servidor de produção
-- `npm run lint` - Executa o linter
+- `npm run dev` - Start development server
+- `npm run build` - Create production build
+- `npm run start` - Start production server
+- `npm run lint` - Run linter
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 portfolio-blog/
 ├── app/
-│   ├── layout.tsx      # Layout principal
-│   ├── page.tsx        # Página inicial
-│   └── globals.css     # Estilos globais
+│   ├── layout.tsx      # Main layout
+│   ├── page.tsx        # Home page
+│   └── globals.css     # Global styles
 ├── components/
-│   ├── Header.tsx      # Cabeçalho com navegação
-│   ├── Hero.tsx        # Seção hero
-│   ├── About.tsx       # Seção sobre
-│   ├── Projects.tsx    # Seção de projetos
-│   ├── Contact.tsx     # Seção de contato
-│   └── Footer.tsx      # Rodapé
-└── public/             # Arquivos estáticos
+│   ├── Header.tsx      # Header with navigation
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section
+│   ├── Projects.tsx    # Projects section
+│   ├── Contact.tsx     # Contact section
+│   └── Footer.tsx      # Footer
+└── public/             # Static files
 ```
 
-## 🎨 Personalização
+## 🎨 Customization
 
-Você pode personalizar o portfólio editando:
+You can customize the portfolio by editing:
 
-- **Cores**: Ajuste as cores no arquivo `tailwind.config.js`
-- **Conteúdo**: Edite os componentes em `components/`
-- **Projetos**: Adicione seus projetos em `components/Projects.tsx`
-- **Informações pessoais**: Atualize as seções About e Contact
+- **Colors**: Adjust colors in `tailwind.config.js`
+- **Content**: Edit components in `components/`
+- **Projects**: Add your projects in `components/Projects.tsx`
+- **Personal information**: Update About and Contact sections
 
-## 📝 Próximos Passos
+## 📝 Next Steps
 
-- [ ] Adicionar seção de blog
-- [ ] Integrar CMS para conteúdo
-- [ ] Adicionar mais projetos
-- [ ] Implementar modo escuro/claro
-- [ ] Adicionar testes
+- [ ] Integrate CMS for content
+- [ ] Add projects
+- [ ] Implement dark/light mode
+- [ ] Add tests
 
-## 📄 Licença
+## 📝 About
 
-Este projeto está sob a licença MIT.
+This is my personal portfolio and blog where I share my experiences, thoughts, and insights about software engineering, particularly focused on backend development with Java and Spring Boot.
+
+## 📄 License
+
+This project is licensed under the MIT License.
 

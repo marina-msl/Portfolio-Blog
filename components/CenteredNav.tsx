@@ -19,7 +19,7 @@ export default function CenteredNav() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
       
-      const sections = ['home', 'about', 'projects', 'blog', 'contact']
+      const sections = ['home', 'about', 'blog']
       const current = sections.find((section) => {
         const element = document.getElementById(section)
         if (element) {
@@ -47,7 +47,6 @@ export default function CenteredNav() {
   const navItems = [
     { name: 'Home', href: '/', section: '#home' },
     { name: 'About', href: '/', section: '#about' },
-    { name: 'Projects', href: '/', section: '#projects' },
     { name: 'Blog', href: '/blog' },
   ]
 

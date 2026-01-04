@@ -24,6 +24,7 @@ const blogPosts: BlogPost[] = [
     author: 'Marina',
     tags: ['Spring', 'Java', 'SneakyThrows'],
     readTime: '6 min',
+    image: '/java-frameworks.jpg',
   },
   {
     id: '2',
@@ -34,6 +35,7 @@ const blogPosts: BlogPost[] = [
     author: 'Marina',
     tags: ['Algorithms', 'BigO', 'Performance'],
     readTime: '7 min',
+    image: '/bigo-image.jpg',
   },
 ]
 
@@ -63,9 +65,6 @@ export default function Blog() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
             Latest <span className="text-primary-400">Posts</span>
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Sharing knowledge and experiences about web development
-          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

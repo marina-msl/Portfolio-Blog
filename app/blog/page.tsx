@@ -4,7 +4,7 @@ import BlogList from '@/components/BlogList'
 
 export const metadata = {
   title: 'Blog | Marina',
-  description: 'Articles and tutorials about web development',
+  description: 'Thoughts and insights about software engineering, Java, and backend development',
 }
 
 export default function BlogPage() {

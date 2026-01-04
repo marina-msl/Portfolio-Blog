@@ -29,7 +29,7 @@ export async function generateMetadata({
   
   return {
     title,
-    description: 'Read articles about software engineering, best practices and more.',
+    description: 'Read my thoughts on software engineering, Java, and backend development.',
   }
 }
 

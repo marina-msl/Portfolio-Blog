@@ -19,6 +19,8 @@ const blogPostsData: Record<string, BlogPost & { content: string }> = {
 
 Frameworks are great at reducing boilerplate, until they start hiding important details.
 
+![Why Framework Magic Can Be More Dangerous Than Plain Java](/java-frameworks.jpg)
+
 \`@SneakyThrows\` is a good example. It removes the need to declare or catch checked exceptions, making the code look cleaner at first glance. But that "magic" comes at a cost: the method's exception contract becomes invisible.
 
 ## When exceptions aren't explicit:
@@ -59,6 +61,8 @@ Why can two O(n) algorithms feel completely different in practice?
 If you've ever wondered that, you're not alone.
 
 This is one of the most common and least obvious difficulties engineers face when learning algorithms and complexity analysis. It usually doesn't affect beginners. It appears once you already have real-world experience and your intuition starts to clash with theory.
+
+![BigO Notation Visualization](/bigo-image.jpg)
 
 ## The mental trap
 
@@ -200,6 +204,16 @@ export default function BlogPostDetail({ slug }: { slug: string }) {
                       return `<h3 class="text-xl font-bold text-white mb-2 mt-4">${line.slice(4)}</h3>`
                     }
                     if (line.startsWith('```')) {
+                      return ''
+                    }
+                    if (line.startsWith('![')) {
+                      // Parse markdown image: ![alt text](image-url)
+                      const match = line.match(/!\[([^\]]*)\]\(([^)]+)\)/)
+                      if (match) {
+                        const alt = match[1] || ''
+                        const src = match[2]
+                        return `<div class="my-8"><img src="${src}" alt="${alt}" class="w-full rounded-lg shadow-lg" /></div>`
+                      }
                       return ''
                     }
                     if (line.startsWith('- ')) {

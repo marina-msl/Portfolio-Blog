@@ -14,6 +14,7 @@ const allBlogPosts: BlogPost[] = [
     author: 'Marina',
     tags: ['Spring', 'Java', 'SneakyThrows'],
     readTime: '6 min',
+    image: '/java-frameworks.jpg',
   },
   {
     id: '2',
@@ -24,6 +25,7 @@ const allBlogPosts: BlogPost[] = [
     author: 'Marina',
     tags: ['Algorithms', 'BigO', 'Performance'],
     readTime: '7 min',
+    image: '/bigo-image.jpg',
   },
 ]
 
@@ -50,7 +52,7 @@ export default function BlogList() {
             <span className="text-primary-400">Blog</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Articles, tutorials and insights about software engineering, best practices and more.
+            My thoughts on software engineering, Java, and backend development.
           </p>
         </motion.div>
 

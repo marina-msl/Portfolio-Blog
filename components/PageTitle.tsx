@@ -16,9 +16,7 @@ export default function PageTitle() {
       const sections = [
         { id: 'home', title: 'Home | Marina' },
         { id: 'about', title: 'About | Marina' },
-        { id: 'projects', title: 'Projects | Marina' },
         { id: 'blog', title: 'Blog | Marina' },
-        { id: 'contact', title: 'Contact | Marina' },
       ]
 
       const current = sections.find((section) => {
