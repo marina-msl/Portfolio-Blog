@@ -8,7 +8,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Marina. All rights reserved.
         </p>
         <p className="text-gray-500 text-sm mt-2">
-          Built with ❤️ using Next.js and TypeScript
+          Built with ☕ using Next.js and TypeScript
         </p>
       </div>
     </footer>

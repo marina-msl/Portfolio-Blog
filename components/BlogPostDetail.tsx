@@ -3,6 +3,8 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { BlogPost } from './Blog'
+import BlogLikes from './BlogLikes'
+import BlogComments from './BlogComments'
 
 const blogPostsData: Record<string, BlogPost & { content: string }> = {
   '1': {
@@ -227,6 +229,14 @@ export default function BlogPostDetail({ slug }: { slug: string }) {
                   .join(''),
               }}
             />
+
+            {/* Likes Section */}
+            <div className="mt-8 pt-8 border-t border-gray-700">
+              <BlogLikes postId={post.id} />
+            </div>
+
+            {/* Comments Section */}
+            <BlogComments postId={post.id} />
           </div>
         </motion.div>
       </div>
