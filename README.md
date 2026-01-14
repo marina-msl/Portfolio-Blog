@@ -70,8 +70,3 @@ You can customize the portfolio by editing:
 ## 📝 About
 
 This is my personal portfolio and blog where I share my experiences, thoughts, and insights about software engineering, particularly focused on backend development with Java and Spring Boot.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
