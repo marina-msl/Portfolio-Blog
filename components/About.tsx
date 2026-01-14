@@ -128,7 +128,7 @@ export default function About() {
               </p>
 
               <p className="text-sm md:text-base leading-snug">
-                Part of my background also includes solid experience in infrastructure. I'm fully autonomous in setting up and maintaining development environments, working with <span className="text-primary-400 font-semibold">Linux, virtual machines</span>, and containerized applications using <span className="text-primary-400 font-semibold">Docker</span>. I'm currently deepening my knowledge of <span className="text-primary-400 font-semibold">GCP and cloud platforms</span>, with a strong focus on <span className="text-primary-400 font-semibold">backend architecture, scalability, and production-ready environments</span>.
+                Part of my background also includes solid experience in infrastructure. I'm fully autonomous in setting up and maintaining development environments, working with <span className="text-primary-400 font-semibold">Linux, Virtual Machines</span>, and containerized applications using <span className="text-primary-400 font-semibold">Docker</span>. I'm currently deepening my knowledge of <span className="text-primary-400 font-semibold">GCP and cloud platforms</span>, with a strong focus on <span className="text-primary-400 font-semibold">backend architecture, scalability, and production-ready environments</span>.
               </p>
 
               <p className="text-sm md:text-base leading-snug">
