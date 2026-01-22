@@ -1011,7 +1011,7 @@ HashSet looks simple on the surface, but its power comes from well defined rules
     title: 'Your First Hello World with Spring AI Will Be Easier Than You Think!',
     excerpt:
       'In just 10 minutes, you can already have your LLM responding! Exploring Spring AI, nothing surprised me more than how easy it was to create my first Hello World.',
-    date: '2026-01-17',
+    date: '2026-01-22',
     author: 'Marina',
     tags: ['Spring', 'Spring AI', 'Java'],
     readTime: '5 min',
